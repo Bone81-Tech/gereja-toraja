@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env*
+!.env.example
+
+# Build outputs
+.next/
+dist/
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# Next.js
+out/
+
+# Temporary files
+temp/
+tmp/
+
+# IDE specific
+.vscode/
+.idea/
+
+# System Files
+.DS_Store
+desktop.ini
