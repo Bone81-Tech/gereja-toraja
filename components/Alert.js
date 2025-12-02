@@ -1,9 +1,9 @@
 const Alert = ({ children, variant = 'info', title, dismissible = false, onClose }) => {
   const variants = {
-    info: 'bg-blue-50 border-blue-200 text-blue-700',
-    success: 'bg-green-50 border-green-200 text-green-700',
-    warning: 'bg-yellow-50 border-yellow-200 text-yellow-700',
-    error: 'bg-red-50 border-red-200 text-red-700'
+    info: 'bg-toraja-merah text-white border-toraja-kuning',
+    success: 'bg-green-100 border-green-200 text-green-700',
+    warning: 'bg-toraja-kuning text-toraja-hitam border-toraja-hitam',
+    error: 'bg-red-100 border-red-200 text-red-700'
   };
 
   return (
@@ -14,8 +14,8 @@ const Alert = ({ children, variant = 'info', title, dismissible = false, onClose
           <div>{children}</div>
         </div>
         {dismissible && (
-          <button 
-            onClick={onClose} 
+          <button
+            onClick={onClose}
             className="text-current hover:opacity-75"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

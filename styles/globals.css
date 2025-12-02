@@ -1,11 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%; /* Start from right */
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  /* Warna-warna tradisional Toraja */
+  --toraja-merah: #D22A2A;          /* Merah simbol kehidupan dan keberanian */
+  --toraja-hitam: #1A1A1A;          /* Hitam simbol kematian dan kesucian */
+  --toraja-kuning: #FFD700;         /* Kuning/Emas simbol berkat dan kuasa Tuhan */
+  --toraja-putih: #FFFFFF;          /* Putih simbol kesucian */
+  --toraja-coklat: #8B4513;         /* Coklat kayu Tongkonan */
+  --toraja-merah-muda: #E75450;     /* Variasi merah */
 }
 
 body {

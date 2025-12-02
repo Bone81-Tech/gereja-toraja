@@ -1,9 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import Layout from '../components/Layout'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -16,10 +13,10 @@ export default function Home() {
 
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-blue-900 mb-4">
+          <h1 className="text-4xl font-bold text-toraja-merah mb-4">
             Selamat Datang di GEREJA TORAJA JEMAAT SURABAYA
           </h1>
-          <div className="w-24 h-1 bg-blue-700 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-toraja-kuning mx-auto mb-6"></div>
           <p className="text-xl text-gray-700">
             Menjadi berkat bagi sesama dan memuliakan Tuhan
           </p>
@@ -28,7 +25,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <Image
-              src="/images/foto-gereja.jpg"
+              src="/images/foto-gereja-toraja.webp"
               alt="Gereja Toraja Jemaat Surabaya"
               width={500}
               height={300}
@@ -36,7 +33,7 @@ export default function Home() {
             />
           </div>
           <div>
-            <h2 className="text-2xl font-semibold text-blue-800 mb-4">Tentang Kami</h2>
+            <h2 className="text-2xl font-semibold text-toraja-merah mb-4">Tentang Kami</h2>
             <p className="text-gray-700 mb-4">
               Gereja Toraja Jemaat Surabaya adalah komunitas iman yang berkomitmen untuk menyembah
               Tuhan dan melayani sesama dengan kasih Kristus. Kami berdiri sejak lama sebagai tempat
@@ -50,18 +47,18 @@ export default function Home() {
         </div>
 
         <div className="mt-12 bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold text-blue-800 mb-4">Ibadah Minggu</h2>
+          <h2 className="text-2xl font-semibold text-toraja-merah mb-4">Ibadah Minggu</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="border p-4 rounded text-center">
-              <h3 className="font-medium text-blue-700">Pelayanan I</h3>
+            <div className="border-2 border-toraja-merah p-4 rounded text-center bg-gray-50">
+              <h3 className="font-medium text-toraja-merah">Pelayanan I</h3>
               <p className="mt-2">07.00 WIB</p>
             </div>
-            <div className="border p-4 rounded text-center">
-              <h3 className="font-medium text-blue-700">Pelayanan II</h3>
+            <div className="border-2 border-toraja-merah p-4 rounded text-center bg-gray-50">
+              <h3 className="font-medium text-toraja-merah">Pelayanan II</h3>
               <p className="mt-2">09.00 WIB</p>
             </div>
-            <div className="border p-4 rounded text-center">
-              <h3 className="font-medium text-blue-700">Pelayanan III</h3>
+            <div className="border-2 border-toraja-merah p-4 rounded text-center bg-gray-50">
+              <h3 className="font-medium text-toraja-merah">Pelayanan III</h3>
               <p className="mt-2">17.00 WIB</p>
             </div>
           </div>

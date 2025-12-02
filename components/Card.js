@@ -1,9 +1,9 @@
 const Card = ({ children, className = '', title }) => {
   return (
-    <div className={`bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 ${className}`}>
+    <div className={`bg-white rounded-lg shadow-md overflow-hidden border-2 border-toraja-merah ${className}`}>
       {title && (
-        <div className="px-6 py-3 bg-gray-50 border-b border-gray-200">
-          <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
+        <div className="px-6 py-3 bg-toraja-merah text-white">
+          <h3 className="text-lg font-semibold">{title}</h3>
         </div>
       )}
       <div className="p-6">

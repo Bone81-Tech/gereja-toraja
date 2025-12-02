@@ -1,0 +1,116 @@
+<svg width="400" height="72" viewBox="0 0 400 72" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
+  <defs>
+    <!-- Warna -->
+    <style>
+      .bg { fill: #a00000; }
+      .dark-red { fill: #7e0000; }
+      .black { fill: #000; }
+      .white { fill: #ffffff; }
+      .yellow { fill: #f6c400; }
+      .red { fill: #c00000; }
+      .stroke { stroke: #000; stroke-width: 2; }
+    </style>
+
+    <!-- Unit pola yang diulang -->
+    <g id="unit">
+      <!-- Panel latar dengan motif merah lebih gelap (tone-on-tone) -->
+      <rect x="0" y="0" width="400" height="48" class="bg"/>
+      <!-- Motif api/spiral tone-on-tone -->
+      <path d="M20,10 C40,0 60,0 80,10 C70,18 70,30 80,38 C60,48 40,48 20,38 C30,30 30,18 20,10Z" class="dark-red" opacity="0.35"/>
+      <path d="M120,10 C140,0 160,0 180,10 C170,18 170,30 180,38 C160,48 140,48 120,38 C130,30 130,18 120,10Z" class="dark-red" opacity="0.35"/>
+      <path d="M220,10 C240,0 260,0 280,10 C270,18 270,30 280,38 C260,48 240,48 220,38 C230,30 230,18 220,10Z" class="dark-red" opacity="0.35"/>
+      <path d="M320,10 C340,0 360,0 380,10 C370,18 370,30 380,38 C360,48 340,48 320,38 C330,30 330,18 320,10Z" class="dark-red" opacity="0.35"/>
+
+      <!-- Border dekoratif bawah -->
+      <!-- Deret tetesan/oval dengan outline hitam dan isi kuning -->
+      <g transform="translate(0,0)">
+        <rect x="0" y="44" width="400" height="28" class="bg"/>
+        <!-- unit tetesan: lebar 80, tinggi 26 -->
+        <g transform="translate(0,46)">
+          <path d="M40,0 C58,0 70,10 70,20 C70,26 62,26 40,26 C18,26 10,26 10,20 C10,10 22,0 40,0 Z" class="red stroke"/>
+          <path d="M40,2 C52,2 60,10 60,18 C60,23 54,23 40,23 C26,23 20,23 20,18 C20,10 28,2 40,2 Z" class="yellow stroke"/>
+        </g>
+        <g transform="translate(80,46)">
+          <path d="M40,0 C58,0 70,10 70,20 C70,26 62,26 40,26 C18,26 10,26 10,20 C10,10 22,0 40,0 Z" class="red stroke"/>
+          <path d="M40,2 C52,2 60,10 60,18 C60,23 54,23 40,23 C26,23 20,23 20,18 C20,10 28,2 40,2 Z" class="yellow stroke"/>
+        </g>
+        <g transform="translate(160,46)">
+          <path d="M40,0 C58,0 70,10 70,20 C70,26 62,26 40,26 C18,26 10,26 10,20 C10,10 22,0 40,0 Z" class="red stroke"/>
+          <path d="M40,2 C52,2 60,10 60,18 C60,23 54,23 40,23 C26,23 20,23 20,18 C20,10 28,2 40,2 Z" class="yellow stroke"/>
+        </g>
+        <g transform="translate(240,46)">
+          <path d="M40,0 C58,0 70,10 70,20 C70,26 62,26 40,26 C18,26 10,26 10,20 C10,10 22,0 40,0 Z" class="red stroke"/>
+          <path d="M40,2 C52,2 60,10 60,18 C60,23 54,23 40,23 C26,23 20,23 20,18 C20,10 28,2 40,2 Z" class="yellow stroke"/>
+        </g>
+        <g transform="translate(320,46)">
+          <path d="M40,0 C58,0 70,10 70,20 C70,26 62,26 40,26 C18,26 10,26 10,20 C10,10 22,0 40,0 Z" class="red stroke"/>
+          <path d="M40,2 C52,2 60,10 60,18 C60,23 54,23 40,23 C26,23 20,23 20,18 C20,10 28,2 40,2 Z" class="yellow stroke"/>
+        </g>
+
+        <!-- V-connector antara tetesan -->
+        <path d="M0,54 L20,46 L40,54 L60,46 L80,54 L100,46 L120,54 L140,46 L160,54 L180,46 L200,54 L220,46 L240,54 L260,46 L280,54 L300,46 L320,54 L340,46 L360,54 L380,46 L400,54"
+              class="black" fill="none" stroke="#000" stroke-width="2"/>
+
+        <!-- Pita ornamen bawah: diamond + oval putih-hitam -->
+        <g transform="translate(0,58)">
+          <!-- gigi segitiga -->
+          <g class="black">
+            <path d="M0,12 L10,0 L20,12 L30,0 L40,12 L50,0 L60,12 L70,0 L80,12 L90,0 L100,12 L110,0 L120,12 L130,0 L140,12 L150,0 L160,12 L170,0 L180,12 L190,0 L200,12 L210,0 L220,12 L230,0 L240,12 L250,0 L260,12 L270,0 L280,12 L290,0 L300,12 L310,0 L320,12 L330,0 L340,12 L350,0 L360,12 L370,0 L380,12 L390,0 L400,12" fill="#fff"/>
+          </g>
+
+          <!-- deret bentuk geometris -->
+          <g transform="translate(0,0)">
+            <!-- diamond hitam dengan lingkaran putih -->
+            <g transform="translate(10,0)">
+              <rect x="-6" y="2" width="12" height="12" transform="rotate(45)" class="black"/>
+              <circle cx="0" cy="8" r="3" class="white"/>
+            </g>
+            <g transform="translate(50,0)">
+              <rect x="-6" y="2" width="12" height="12" transform="rotate(45)" class="black"/>
+              <circle cx="0" cy="8" r="3" class="white"/>
+            </g>
+            <g transform="translate(90,0)">
+              <rect x="-6" y="2" width="12" height="12" transform="rotate(45)" class="black"/>
+              <circle cx="0" cy="8" r="3" class="white"/>
+            </g>
+            <g transform="translate(130,0)">
+              <rect x="-6" y="2" width="12" height="12" transform="rotate(45)" class="black"/>
+              <circle cx="0" cy="8" r="3" class="white"/>
+            </g>
+            <g transform="translate(170,0)">
+              <rect x="-6" y="2" width="12" height="12" transform="rotate(45)" class="black"/>
+              <circle cx="0" cy="8" r="3" class="white"/>
+            </g>
+            <g transform="translate(210,0)">
+              <rect x="-6" y="2" width="12" height="12" transform="rotate(45)" class="black"/>
+              <circle cx="0" cy="8" r="3" class="white"/>
+            </g>
+            <g transform="translate(250,0)">
+              <rect x="-6" y="2" width="12" height="12" transform="rotate(45)" class="black"/>
+              <circle cx="0" cy="8" r="3" class="white"/>
+            </g>
+            <g transform="translate(290,0)">
+              <rect x="-6" y="2" width="12" height="12" transform="rotate(45)" class="black"/>
+              <circle cx="0" cy="8" r="3" class="white"/>
+            </g>
+            <g transform="translate(330,0)">
+              <rect x="-6" y="2" width="12" height="12" transform="rotate(45)" class="black"/>
+              <circle cx="0" cy="8" r="3" class="white"/>
+            </g>
+            <g transform="translate(370,0)">
+              <rect x="-6" y="2" width="12" height="12" transform="rotate(45)" class="black"/>
+              <circle cx="0" cy="8" r="3" class="white"/>
+            </g>
+          </g>
+        </g>
+      </g>
+
+      <!-- Pattern repeat horizontal -->
+      <pattern id="papata-repeat" patternUnits="userSpaceOnUse" width="400" height="72">
+        <use href="#unit" x="0" y="0"/>
+      </pattern>
+    </defs>
+
+    <!-- Render pattern -->
+    <rect width="100%" height="100%" fill="url(#papata-repeat)"/>
+</svg>

@@ -2,10 +2,10 @@ const Button = ({ children, variant = 'primary', size = 'md', onClick, className
   const baseClasses = 'inline-flex items-center justify-center rounded font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed';
 
   const variants = {
-    primary: 'bg-blue-700 text-white hover:bg-blue-800 focus:ring-blue-500',
-    secondary: 'bg-gray-200 text-gray-800 hover:bg-gray-300 focus:ring-gray-500',
-    outline: 'border border-blue-700 text-blue-700 hover:bg-blue-50 focus:ring-blue-500',
-    ghost: 'text-blue-700 hover:bg-blue-50 focus:ring-blue-500'
+    primary: 'bg-toraja-merah text-white hover:bg-toraja-merah-muda focus:ring-toraja-merah',
+    secondary: 'bg-toraja-kuning text-toraja-hitam hover:bg-yellow-400 focus:ring-toraja-kuning',
+    outline: 'border border-toraja-merah text-toraja-merah hover:bg-toraja-merah focus:ring-toraja-merah',
+    ghost: 'text-toraja-merah hover:bg-toraja-merah focus:ring-toraja-merah'
   };
 
   const sizes = {
