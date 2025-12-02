@@ -19,7 +19,7 @@ const Header = ({ toggleSidebar }) => {
   return (
     <header
       className="relative text-white shadow-xl w-full"
-      style={{ height: '150px' }}
+      style={{ height: '80px' }}
     >
       <div
         className="absolute inset-0 overflow-hidden"
