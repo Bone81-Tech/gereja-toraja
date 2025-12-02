@@ -13,12 +13,18 @@ export default function Home() {
 
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-toraja-merah mb-4">
-            Selamat Datang di GEREJA TORAJA JEMAAT SURABAYA
+          <h1 className="text-5xl font-extrabold text-toraja-merah tracking-tight">
+            Selamat Datang
           </h1>
-          <div className="w-24 h-1 bg-toraja-kuning mx-auto mb-6"></div>
-          <p className="text-xl text-gray-700">
-            Menjadi berkat bagi sesama dan memuliakan Tuhan
+          <p className="text-lg italic text-gray-700">
+            di
+          </p>
+          <p className="text-3xl font-bold text-gray-800 mt-1">
+            Gereja Toraja Jemaat Surabaya
+          </p>
+          <div className="w-24 h-1 bg-toraja-kuning mx-auto my-6"></div>
+          <p className="text-xl text-gray-700 italic">
+            "Menjadi berkat bagi sesama dan memuliakan Tuhan"
           </p>
         </div>
 
@@ -46,22 +52,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-12 bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold text-toraja-merah mb-4">Ibadah Minggu</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="border-2 border-toraja-merah p-4 rounded text-center bg-gray-50">
-              <h3 className="font-medium text-toraja-merah">Pelayanan I</h3>
-              <p className="mt-2">07.00 WIB</p>
-            </div>
-            <div className="border-2 border-toraja-merah p-4 rounded text-center bg-gray-50">
-              <h3 className="font-medium text-toraja-merah">Pelayanan II</h3>
-              <p className="mt-2">09.00 WIB</p>
-            </div>
-            <div className="border-2 border-toraja-merah p-4 rounded text-center bg-gray-50">
-              <h3 className="font-medium text-toraja-merah">Pelayanan III</h3>
-              <p className="mt-2">17.00 WIB</p>
-            </div>
-          </div>
+        <div className="mt-12 bg-white p-6 rounded-lg shadow-md text-center">
+          <h2 className="text-3xl font-bold text-toraja-merah mb-2">Ibadah Hari Minggu</h2>
+          <p className="text-xl text-gray-600">Dilaksanakan setiap pukul 09.00 WIB</p>
         </div>
       </div>
     </Layout>

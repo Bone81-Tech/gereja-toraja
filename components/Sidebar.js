@@ -151,6 +151,16 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
         <div className="absolute bottom-0 left-0 w-full p-4 bg-[#1A1A1A] border-t border-toraja-merah">
           <p className="text-sm text-toraja-kuning text-center">
             GEREJA TORAJA JEMAAT SURABAYA &copy; {new Date().getFullYear()}
+            <br />
+            Developed by{" "}
+            <a 
+              href="https://bonedigitalservice.web.id" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white hover:text-toraja-merah hover:underline transition"
+            >
+              Bone Digital Service
+            </a>
           </p>
         </div>
       </aside>
