@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
       {/* Mobile Sidebar Toggle Button (Document Icon) */}
       <button
         onClick={toggleSidebar}
-        className="md:hidden fixed bottom-6 left-4 z-[9999] bg-toraja-merah text-white p-3 rounded-full shadow-lg hover:bg-red-700 transition-colors duration-200 flex items-center justify-center"
+        className="md:hidden fixed bottom-6 left-4 z-[9999] bg-[#D22A2A] text-white p-3 rounded-full shadow-lg hover:bg-[#B02020] transition-colors duration-200 flex items-center justify-center"
         aria-label="Buka Menu"
         title="Buka Menu"
       >
