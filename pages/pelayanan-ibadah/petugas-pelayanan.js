@@ -105,7 +105,7 @@ export default function PetugasPelayanan() {
       </Head>
 
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-3xl font-bold text-toraja-merah mb-2">📅 Petugas Pelayanan</h1>
+        <h1 className="text-3xl font-bold text-toraja-merah mb-2">Petugas Pelayanan</h1>
         <p className="text-gray-600 mb-6">Jadwal Pelayanan Ibadah Minggu - November 2025</p>
 
         {/* A. JADWAL MAJELIS YANG BERTUGAS */}
