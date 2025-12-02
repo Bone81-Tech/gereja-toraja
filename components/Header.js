@@ -140,17 +140,6 @@ const Header = ({ toggleSidebar }) => {
       {/* Navigation Content (Di atas SVG dengan z-index) */}
       <div className="relative z-10 container mx-auto flex justify-between items-center p-4 h-full">
         <div className="flex items-center space-x-4">
-          {/* Hamburger Menu (Mobile Only) */}
-          <button 
-            onClick={toggleSidebar}
-            className="md:hidden text-white hover:text-toraja-kuning transition p-2"
-            aria-label="Toggle Menu"
-          >
-            <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
-          
           {/* Logo / Title area could go here */}
         </div>
       </div>
